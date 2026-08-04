@@ -1,0 +1,24 @@
+[build-system]
+requires = ["setuptools >= 77.0.3"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "individual-identification"
+authors = [
+    { name = "Paul Tristan Wagner", email = "paultristanwagner@gmail.com" },
+]
+dynamic = ["version"]
+dependencies = []
+
+[tool.pyright]
+pythonVersion = "3.12"
+typeCheckingMode = "standard"
+reportMissingImports = true
+reportMissingTypeStubs = false
+
+# Directories to exclude from type checking
+exclude = [
+    "**/__pycache__",
+    "**/node_modules",
+    ".venv",
+]
