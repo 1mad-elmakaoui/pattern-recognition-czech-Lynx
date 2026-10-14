@@ -5,7 +5,7 @@ build-backend = "setuptools.build_meta"
 [project]
 name = "individual-identification"
 authors = [
-    { name = "Paul Tristan Wagner", email = "paultristanwagner@gmail.com" },
+    { name = "Imad", email = "imadelmakaoui1@gmail.com" },
 ]
 dynamic = ["version"]
 dependencies = []
